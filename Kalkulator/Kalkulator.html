@@ -1,0 +1,58 @@
+<html>
+
+<head>
+	<title>KALKULATOR JS</title>
+</head>
+
+<body>
+	<h2>
+		<center><b>KALKULATOR JAVASCRIPT</b></center>
+	</h2>
+
+	<form name="main">
+		<center>
+			<br>
+			<br>
+			<table bgcolor="#aacfcf" cellspacing="10">
+				<tr>
+					<td>Bilangan Pertama:</td>
+				</tr>
+				<tr>
+					<td><input type="text" name="a" placeholder="Bil 1" /></td>
+				</tr>
+				<tr>
+					<td>Bilangan Kedua:</td>
+				</tr>
+				<tr>
+					<td><input type="text" name="b" placeholder="Bil 2" /></td>
+				</tr>
+				<tr>
+					<td colspan="2" align="center">
+						<input type="button" value="+" onClick="tambah()" />
+						<!-- menjalankan perintah javascript pada fungsi tambah() saat button + html diklik oleh mouse-->
+						<input type="button" value="-" onClick="kurang()" />
+						<!-- menjalankan perintah javascript pada fungsi kurang() saat button - html diklik oleh mouse-->
+						<input type="button" value=":" onClick="bagi()" />
+						<!-- menjalankan perintah javascript pada fungsi bagi() saat button : html diklik oleh mouse-->
+						<input type="button" value="X" onClick="kali()" />
+						<!-- menjalankan perintah javascript pada fungsi kali() saat button x html diklik oleh mouse-->
+			</table>
+
+			<table bgcolor="#aacfcf" cellspacing="10">
+				<td colspan="3" align="center"><input type="reset" value="clear"></td>
+			</table>
+
+			<br>
+			<br>
+			<table border=1 bgcolor="#aacfcf" cellspacing="10">
+				<th>
+					<br>Hasil:</br>
+					<br><input type="text" name="hasil" value="" /></br>
+				</th>
+			</table>
+		</center>
+	</form>
+</body>
+<script type="text/javascript" src="Kalkulator.js"></script>
+
+</html>
